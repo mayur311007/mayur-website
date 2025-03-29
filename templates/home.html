@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    {% include 'bootstrap.html' %}
+</head>
+<body>
+    {% include 'nav.html' %}
+    {% include 'banner.html' %}
+
+    <div class="container">
+        <h1 class="text-center" mt-2 mb-4>Jovian Careers</h1>
+        
+        <div class="row" style="margin-top: 30px;">  
+            <div class="col-md-6">
+                <p class="lead">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged. It was popularised in the 1960s with the
+                    release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker
+                    including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div class="d-none d-md-block col-md-6">
+                <img src="/static/people.jpg" style="height: 320px; border-radius: 4px;">
+            </div>
+        </div>
+        <h2 class="text-center" style="margin-top: 20px;">Job Openings</h2>
+        
+        <div class="text-center" style="margin-top: 40px;">
+        <a class="btn btn-primary btn-lg" href="mailto:hello@jovian.ai?subject=Question%20about%20job%20openings&body=My%20name%3A%3Cyour%20name%20here%3E%0D%0AMy%20question%3A%20%3Center%20question%20here%3E">
+            Contact us
+        </a>
+        </div>    
+        {% include 'footer.html' %}
+    </div>
+</body>
+</html>
