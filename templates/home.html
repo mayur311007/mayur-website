@@ -27,6 +27,11 @@
             </div>
         </div>
         <h2 class="text-center" style="margin-top: 20px;">Job Openings</h2>
+        <div>
+            {% for jobs in jobs %}
+            {% include 'jobitems.html'%}
+            {% endfor %}
+        </div>
         
         <div class="text-center" style="margin-top: 40px;">
         <a class="btn btn-primary btn-lg" href="mailto:hello@jovian.ai?subject=Question%20about%20job%20openings&body=My%20name%3A%3Cyour%20name%20here%3E%0D%0AMy%20question%3A%20%3Center%20question%20here%3E">
