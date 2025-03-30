@@ -1,0 +1,20 @@
+<div class="border-bottom row" style="margin-bottom: 16px;padding-bottom: 8px;">
+    <div class="col-10">
+        <h4 style="color: rgb(120,120,120); margin-bottom: 4px;">
+            {{jobs['title']}}
+        </h4>
+        <div>
+            <b>Location:{{jobs['location']}}</b>
+        </div>
+        <div>
+            <b>Salary:{{jobs['currency']}}{{jobs['salary']}}</b>
+        </div>
+    </div>
+    <div class="col-2">
+        <a href="/jobs/{{jobs['id']}}"
+         type="button"
+         class="btn btn-outline-primary">Apply
+        </a>
+    </div>
+    
+</div>
